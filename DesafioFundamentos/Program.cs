@@ -45,15 +45,16 @@ while (exibirMenu)
 
         case "4":
             exibirMenu = false;
-            break;
+            break; 
 
         default:
             Console.WriteLine("Opção inválida");
             break;
+
+        
     }
-
-    Console.WriteLine("Pressione uma tecla para continuar");
+    Console.WriteLine("Pressione a tecla para continuar");  
     Console.ReadLine();
+      
 }
-
 Console.WriteLine("O programa se encerrou");
